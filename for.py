@@ -19,3 +19,19 @@ for i in range(10): # it means start from 0 and end at 9
 
 for i in range(11,21,1): # start point,end point and iteration
     print(i)
+
+for i in range (20,11,-1): #reverse order
+    print(i)
+
+for i in range (1,21):
+    if(i%5!=0):
+        print(i)
+
+
+#QUES:
+#Print all the perfect square number btwn  1 and 50.
+
+
+for i in range (1,50):
+    if i*i<50:
+        print(i*i)
