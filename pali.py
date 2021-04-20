@@ -40,7 +40,13 @@ print('even : {} and odd : {}' .format(even,odd))
  # format() method formats the specified
  #value(s) and insert them inside the string's placeholder.
 
-lst=['Gnana','Sekar','Chandra','Narayana','Gitam']
-for i in lst:
-    if len(i)==5:
-        print(i)
+# QUES : Take 10 names from the user and then count and display the no of users who has len more thn 5 letters
+
+names= int(input('enter the names of users'))
+count+=1
+for i in names:
+    if length>=5
+        print(names)
+
+else:
+    print('not found')
